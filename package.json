@@ -1,0 +1,19 @@
+{
+  "name": "async-tasks-with-es6-generators",
+  "version": "0.0.1",
+  "description": "Using ES6 generators for async tasks",
+  "main": "server.js",
+  "scripts": {
+    "prepublish": "babel --out-dir out lib",
+    "start": "node index.js"
+  },
+  "author": "Brian Schemp",
+  "dependencies": {
+    "concat-stream": "^1.4.7",
+    "generator-runner": "^2.2.0",
+    "hyperquest": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel": "^4.7.8"
+  }
+}
